@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This project lis creating as an assignment for the company PLEXIGENIUS",
+  "license": "ISC",
+  "author": "Aman Makwana",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx nodemon server.js",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@imagekit/nodejs": "^7.3.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13"
+  }
+}
