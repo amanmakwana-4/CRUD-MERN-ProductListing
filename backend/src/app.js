@@ -8,9 +8,7 @@ import { errorHandler } from './middlewares/errorHandler.js';
 const app = express();
 
 const allowedOrigins = [
-  'http://localhost:5173',
-  'http://localhost:3000',
-  process.env.FRONTEND_URL || 'https://crud-mern-product-listing.vercel.app',
+  'https://crud-mern-product-listing.vercel.app',
 ];
 
 app.use(
